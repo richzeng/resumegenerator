@@ -1,0 +1,2 @@
+resume = open("resume.tex")
+
