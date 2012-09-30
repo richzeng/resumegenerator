@@ -25,7 +25,8 @@ INDUSTRY = ["social media", "green technology", "mobile software", "networking i
 
 MAJORS = ["EECS", "CS", "EE"]
 
-
+"""
 print "{0} at {1}".format(choice(POSITIONS), choice(COMPANIES))
 print "Looking for {0} at a {1} {2} in {3}".format(choice(TYPE), choice(ADJECTIVES), choice(COMPANY_TYPE), choice(INDUSTRY))
 print "{0} a {1} {2}.".format(choice(VERBS), choice(ADJECTIVES), choice(NOUNS), choice(MODIFIER))
+"""
