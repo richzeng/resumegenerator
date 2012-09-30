@@ -2,8 +2,9 @@ import datagen
 import random 
 from random import choice 
 template = open("resume.tex").read() 
-new_file = open("new_resume.tex", "w")
-
+new_file = open("new_resume.tex", "rw")
+new_file.flush() 
+new_file = open("new_resume.tex","w") 
 name = raw_input("Type your name: ") 
 JOB1 = choice(datagen.COMPANIES) 
 datagen.COMPANIES.remove(JOB1) 
